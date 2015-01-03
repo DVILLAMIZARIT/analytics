@@ -1,0 +1,311 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', 'express' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json Analytics@0.0.1 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'express', null ]
+7 verbose cache add name=undefined spec="express" args=["express",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'express',
+8 verbose parsed url   path: 'express',
+8 verbose parsed url   href: 'express' }
+9 silly lockFile f3c62de4-express express
+10 verbose lock express /Users/chillyoman/.npm/f3c62de4-express.lock
+11 silly lockFile f3c62de4-express express
+12 silly lockFile f3c62de4-express express
+13 verbose addNamed [ 'express', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 64a534c1-express express@
+16 verbose lock express@ /Users/chillyoman/.npm/64a534c1-express.lock
+17 silly addNameRange { name: 'express', range: '*', hasData: false }
+18 verbose request where is /express
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 761e807c15f1cbd3
+21 verbose url raw /express
+22 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+23 verbose url resolved https://registry.npmjs.org/express
+24 verbose request where is https://registry.npmjs.org/express
+25 info trying registry request attempt 1 at 14:56:55
+26 verbose etag "2N5F6QXDZ11EJ2E2MRJQQCDOS"
+27 http GET https://registry.npmjs.org/express
+28 http 200 https://registry.npmjs.org/express
+29 silly registry.get cb [ 200,
+29 silly registry.get   { date: 'Sat, 03 Jan 2015 22:56:56 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"2BMC16BEGT6BZ6KALORMF7OG9"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     'content-length': '444872',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '19',
+29 silly registry.get     'x-served-by': 'cache-lax1422-LAX',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '21',
+29 silly registry.get     'x-timer': 'S1420325816.635316,VS0,VE0',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+31 silly addNameRange versions [ 'express',
+31 silly addNameRange   [ '0.14.0',
+31 silly addNameRange     '0.14.1',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6',
+31 silly addNameRange     '1.0.7',
+31 silly addNameRange     '1.0.8',
+31 silly addNameRange     '2.0.0',
+31 silly addNameRange     '2.1.0',
+31 silly addNameRange     '2.1.1',
+31 silly addNameRange     '2.2.0',
+31 silly addNameRange     '2.2.1',
+31 silly addNameRange     '2.2.2',
+31 silly addNameRange     '2.3.0',
+31 silly addNameRange     '2.3.1',
+31 silly addNameRange     '2.3.2',
+31 silly addNameRange     '2.3.3',
+31 silly addNameRange     '2.3.4',
+31 silly addNameRange     '2.3.5',
+31 silly addNameRange     '2.3.6',
+31 silly addNameRange     '2.3.7',
+31 silly addNameRange     '2.3.8',
+31 silly addNameRange     '2.3.9',
+31 silly addNameRange     '2.3.10',
+31 silly addNameRange     '2.3.11',
+31 silly addNameRange     '2.3.12',
+31 silly addNameRange     '2.4.0',
+31 silly addNameRange     '2.4.1',
+31 silly addNameRange     '2.4.2',
+31 silly addNameRange     '2.4.3',
+31 silly addNameRange     '2.4.4',
+31 silly addNameRange     '2.4.5',
+31 silly addNameRange     '2.4.6',
+31 silly addNameRange     '2.4.7',
+31 silly addNameRange     '2.5.0',
+31 silly addNameRange     '2.5.1',
+31 silly addNameRange     '2.5.2',
+31 silly addNameRange     '2.5.3',
+31 silly addNameRange     '2.5.4',
+31 silly addNameRange     '2.5.5',
+31 silly addNameRange     '2.5.6',
+31 silly addNameRange     '2.5.7',
+31 silly addNameRange     '2.5.8',
+31 silly addNameRange     '2.5.9',
+31 silly addNameRange     '2.5.10',
+31 silly addNameRange     '2.5.11',
+31 silly addNameRange     '3.0.0',
+31 silly addNameRange     '3.0.1',
+31 silly addNameRange     '3.0.2',
+31 silly addNameRange     '3.0.3',
+31 silly addNameRange     '3.0.4',
+31 silly addNameRange     '3.0.5',
+31 silly addNameRange     '3.0.6',
+31 silly addNameRange     '3.1.0',
+31 silly addNameRange     '3.1.1',
+31 silly addNameRange     '3.1.2',
+31 silly addNameRange     '3.2.0',
+31 silly addNameRange     '3.2.1',
+31 silly addNameRange     '3.2.2',
+31 silly addNameRange     '3.2.3',
+31 silly addNameRange     '3.2.4',
+31 silly addNameRange     '3.2.5',
+31 silly addNameRange     '3.2.6',
+31 silly addNameRange     '3.3.0',
+31 silly addNameRange     '3.3.1',
+31 silly addNameRange     '3.3.2',
+31 silly addNameRange     '3.3.3',
+31 silly addNameRange     '3.3.4',
+31 silly addNameRange     '3.3.5',
+31 silly addNameRange     '3.3.6',
+31 silly addNameRange     '1.0.0-beta',
+31 silly addNameRange     '1.0.0-beta2',
+31 silly addNameRange     '1.0.0-rc',
+31 silly addNameRange     '1.0.0-rc2',
+31 silly addNameRange     '1.0.0-rc3',
+31 silly addNameRange     '1.0.0-rc4',
+31 silly addNameRange     '2.0.0-beta',
+31 silly addNameRange     '2.0.0-beta2',
+31 silly addNameRange     '2.0.0-beta3',
+31 silly addNameRange     '2.0.0-rc',
+31 silly addNameRange     '2.0.0-rc2',
+31 silly addNameRange     '2.0.0-rc3',
+31 silly addNameRange     '3.0.0-alpha1',
+31 silly addNameRange     '3.0.0-alpha2',
+31 silly addNameRange     '3.0.0-alpha3',
+31 silly addNameRange     '3.0.0-alpha4',
+31 silly addNameRange     '3.0.0-alpha5',
+31 silly addNameRange     '3.0.0-beta1',
+31 silly addNameRange     '3.0.0-beta2',
+31 silly addNameRange     '3.0.0-beta3',
+31 silly addNameRange     '3.0.0-beta4',
+31 silly addNameRange     '3.0.0-beta6',
+31 silly addNameRange     '3.0.0-beta7',
+31 silly addNameRange     '3.0.0-rc1',
+31 silly addNameRange     '3.0.0-rc2',
+31 silly addNameRange     '3.0.0-rc3',
+31 silly addNameRange     '3.0.0-rc4',
+31 silly addNameRange     '3.0.0-rc5',
+31 silly addNameRange     '3.3.7',
+31 silly addNameRange     '3.3.8',
+31 silly addNameRange     '3.4.0',
+31 silly addNameRange     '3.4.1',
+31 silly addNameRange     '3.4.2',
+31 silly addNameRange     '3.4.3',
+31 silly addNameRange     '3.4.4',
+31 silly addNameRange     '3.4.5',
+31 silly addNameRange     '3.4.6',
+31 silly addNameRange     '3.4.7',
+31 silly addNameRange     '3.4.8',
+31 silly addNameRange     '4.0.0-rc1',
+31 silly addNameRange     '4.0.0-rc2',
+31 silly addNameRange     '3.5.0',
+31 silly addNameRange     '4.0.0-rc3',
+31 silly addNameRange     '4.0.0-rc4',
+31 silly addNameRange     '3.5.1',
+31 silly addNameRange     '4.0.0',
+31 silly addNameRange     '3.5.2',
+31 silly addNameRange     '4.1.0',
+31 silly addNameRange     '4.1.1',
+31 silly addNameRange     '3.5.3',
+31 silly addNameRange     '4.1.2',
+31 silly addNameRange     '3.6.0',
+31 silly addNameRange     '4.2.0',
+31 silly addNameRange     '3.7.0',
+31 silly addNameRange     '3.8.0',
+31 silly addNameRange     '4.3.0',
+31 silly addNameRange     '4.3.1',
+31 silly addNameRange     '3.8.1',
+31 silly addNameRange     '4.3.2',
+31 silly addNameRange     '3.9.0',
+31 silly addNameRange     '4.4.0',
+31 silly addNameRange     '4.4.1',
+31 silly addNameRange     '3.10.0',
+31 silly addNameRange     '3.10.1',
+31 silly addNameRange     '3.10.2',
+31 silly addNameRange     '3.10.3',
+31 silly addNameRange     '3.10.4',
+31 silly addNameRange     '4.4.2',
+31 silly addNameRange     '3.10.5',
+31 silly addNameRange     '4.4.3',
+31 silly addNameRange     '3.11.0',
+31 silly addNameRange     '4.4.4',
+31 silly addNameRange     '3.12.0',
+31 silly addNameRange     '3.12.1',
+31 silly addNameRange     '4.4.5',
+31 silly addNameRange     '3.13.0',
+31 silly addNameRange     '4.5.0',
+31 silly addNameRange     '4.5.1',
+31 silly addNameRange     '3.14.0',
+31 silly addNameRange     '4.6.0',
+31 silly addNameRange     '4.6.1',
+31 silly addNameRange     '3.15.0',
+31 silly addNameRange     '4.7.0',
+31 silly addNameRange     '3.15.1',
+31 silly addNameRange     '4.7.1',
+31 silly addNameRange     '3.15.2',
+31 silly addNameRange     '4.7.2',
+31 silly addNameRange     '4.7.3',
+31 silly addNameRange     '3.15.3',
+31 silly addNameRange     '4.7.4',
+31 silly addNameRange     '3.16.0',
+31 silly addNameRange     '4.8.0',
+31 silly addNameRange     '3.16.1',
+31 silly addNameRange     '4.8.1',
+31 silly addNameRange     '3.16.2',
+31 silly addNameRange     '4.8.2',
+31 silly addNameRange     '3.16.3',
+31 silly addNameRange     '3.16.4',
+31 silly addNameRange     '4.8.3',
+31 silly addNameRange     '3.16.5',
+31 silly addNameRange     '3.16.6',
+31 silly addNameRange     '4.8.4',
+31 silly addNameRange     '3.16.7',
+31 silly addNameRange     '4.8.5',
+31 silly addNameRange     '3.16.8',
+31 silly addNameRange     '4.8.6',
+31 silly addNameRange     '3.16.9',
+31 silly addNameRange     '4.8.7',
+31 silly addNameRange     '3.16.10',
+31 silly addNameRange     '4.8.8',
+31 silly addNameRange     '3.17.0',
+31 silly addNameRange     '3.17.1',
+31 silly addNameRange     '4.9.0',
+31 silly addNameRange     '3.17.2',
+31 silly addNameRange     '4.9.1',
+31 silly addNameRange     '4.9.2',
+31 silly addNameRange     '3.17.3',
+31 silly addNameRange     '4.9.3',
+31 silly addNameRange     '3.17.4',
+31 silly addNameRange     '4.9.4',
+31 silly addNameRange     '3.17.5',
+31 silly addNameRange     '4.9.5',
+31 silly addNameRange     '3.17.6',
+31 silly addNameRange     '3.17.7',
+31 silly addNameRange     '4.9.6',
+31 silly addNameRange     '4.9.7',
+31 silly addNameRange     '3.17.8',
+31 silly addNameRange     '4.9.8',
+31 silly addNameRange     '3.18.0',
+31 silly addNameRange     '3.18.1',
+31 silly addNameRange     '4.10.0',
+31 silly addNameRange     '3.18.2',
+31 silly addNameRange     '4.10.1',
+31 silly addNameRange     '5.0.0-alpha.1',
+31 silly addNameRange     '3.18.3',
+31 silly addNameRange     '4.10.2',
+31 silly addNameRange     '3.18.4',
+31 silly addNameRange     '4.10.3',
+31 silly addNameRange     '4.10.4',
+31 silly addNameRange     '4.10.5',
+31 silly addNameRange     '3.18.5',
+31 silly addNameRange     '3.18.6',
+31 silly addNameRange     '4.10.6' ] ]
+32 verbose addNamed [ 'express', '4.10.6' ]
+33 verbose addNamed [ '4.10.6', '4.10.6' ]
+34 silly lockFile e8f8e85c-express-4-10-6 express@4.10.6
+35 verbose lock express@4.10.6 /Users/chillyoman/.npm/e8f8e85c-express-4-10-6.lock
+36 silly lockFile 51a1356c-s-org-express-express-4-10-6-tgz https://registry.npmjs.org/express/-/express-4.10.6.tgz
+37 verbose lock https://registry.npmjs.org/express/-/express-4.10.6.tgz /Users/chillyoman/.npm/51a1356c-s-org-express-express-4-10-6-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.10.6.tgz',
+38 verbose addRemoteTarball   'a9015979ccf38b11a39c0f726dcf6c4b85a4e758' ]
+39 info retry fetch attempt 1 at 14:56:58
+40 verbose fetch to= /var/folders/8c/vl_srtlj5rd3yvs8hz4n5vvr0000gn/T/npm-1041-DLh5bnlj/registry.npmjs.org/express/-/express-4.10.6.tgz
+41 http GET https://registry.npmjs.org/express/-/express-4.10.6.tgz
+42 http 200 https://registry.npmjs.org/express/-/express-4.10.6.tgz
+43 silly lockFile 51a1356c-s-org-express-express-4-10-6-tgz https://registry.npmjs.org/express/-/express-4.10.6.tgz
+44 silly lockFile 51a1356c-s-org-express-express-4-10-6-tgz https://registry.npmjs.org/express/-/express-4.10.6.tgz
+45 silly lockFile e8f8e85c-express-4-10-6 express@4.10.6
+46 silly lockFile e8f8e85c-express-4-10-6 express@4.10.6
+47 silly lockFile 64a534c1-express express@
+48 silly lockFile 64a534c1-express express@
+49 error Error: EACCES, mkdir '/Users/chillyoman/.npm/express/4.10.6'
+49 error  { [Error: EACCES, mkdir '/Users/chillyoman/.npm/express/4.10.6']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/Users/chillyoman/.npm/express/4.10.6',
+49 error   parent: 'Analytics' }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 13.4.0
+52 error command "node" "/usr/local/bin/npm" "i" "express"
+53 error cwd /Users/chillyoman/Desktop/Apps/analytics
+54 error node -v v0.10.35
+55 error npm -v 1.4.28
+56 error path /Users/chillyoman/.npm/express/4.10.6
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/Users/chillyoman/.npm/express/4.10.6'
+60 verbose exit [ 3, true ]
