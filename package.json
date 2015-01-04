@@ -1,34 +1,34 @@
 {
-  "name": "Analytics",
-  "version": "0.0.1",
-  "description": "End to End Analytics",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/M0unir/analytics"
-  },
-  "author": "M0unir",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/M0unir/analytics/issues"
-  },
-  "homepage": "https://github.com/M0unir/analytics",
-  "dependencies": {
-    "async": "^0.9.0",
-    "ejs": "^1.0.0",
-    "express": "4.10.6",
-    "moment": "^2.8.4",
-    "mongoose": "^3.8.21",
-    "underscore": "^1.7.0"
-  },
-  "devDependencies": {
-    "charlatan": "^0.1.9",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-compass": "^1.0.1",
-    "grunt-contrib-watch": "^0.6.1"
-  }
+"name": "Analytics",
+"version": "0.0.1",
+"description": "End to End Analytics",
+"main": "index.js",
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+"repository": {
+"type": "git",
+"url": "https://github.com/M0unir/analytics"
+},
+"author": "M0unir",
+"license": "MIT",
+"bugs": {
+"url": "https://github.com/M0unir/analytics/issues"
+},
+"homepage": "https://github.com/M0unir/analytics",
+"dependencies": {
+"async": "^0.9.0",
+"ejs": "^1.0.0",
+"express": "4.10.6",
+"moment": "^2.8.4",
+"mongoose": "^3.8.21",
+"underscore": "^1.7.0"
+},
+"devDependencies": {
+"charlatan": "^0.1.9",
+"grunt": "^0.4.5",
+"grunt-cli": "^0.1.13",
+"grunt-contrib-compass": "^1.0.1",
+"grunt-contrib-watch": "^0.6.1"
+}
 }
